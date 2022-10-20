@@ -8,11 +8,11 @@
 Очки сохраняются.
 
 ### Визуальная часть приложения:
-![breakout-game](https://github.com/slychagin/typing-speed-test/blob/master/app_ui.gif)
+![breakout-game](https://github.com/slychagin/breakout-game/blob/master/brakeout_game.gif)
 
 ### Технологии:
 - Python 3, Turtle.
 
 ### Вы можете запустить приложение локально просто сделав следующее:
-- `git clone `;
+- `git clone https://github.com/slychagin/breakout-game.git`;
 - `python main.py`.
