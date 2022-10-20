@@ -10,7 +10,7 @@ from paddle import Paddle
 Y_DELTA = 20
 ROWS_NUMBER = 9
 
-# CREATE SCREEN
+# SETUP SCREEN
 screen = Screen()
 screen.bgcolor('#222222')
 screen.title('Breakout Game')

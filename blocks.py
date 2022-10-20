@@ -5,6 +5,9 @@ SCREEN_HEIGHT = 900
 
 
 class Blocks(Turtle):
+    """
+    Create blocks, set block color
+    """
 
     def __init__(self):
         super().__init__()
@@ -41,6 +44,9 @@ class Blocks(Turtle):
 
 
 class Bang(Turtle):
+    """
+    Show bang after collisions
+    """
 
     def __init__(self):
         super().__init__()

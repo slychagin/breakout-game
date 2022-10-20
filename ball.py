@@ -5,6 +5,9 @@ START_POSITION = (0, -410)
 
 
 class Ball(Turtle):
+    """
+    Create ball, set ball speed and rebounds
+    """
 
     def __init__(self):
         super().__init__()

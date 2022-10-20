@@ -5,6 +5,9 @@ HEART = '\U0001F49A'
 
 
 class PointBoard(Turtle):
+    """
+    Show, update and reset points
+    """
 
     def __init__(self):
         super().__init__()
@@ -39,6 +42,9 @@ class PointBoard(Turtle):
 
 
 class AttemptsBoard(Turtle):
+    """
+    Show lives
+    """
 
     def __init__(self):
         super().__init__()
@@ -59,6 +65,9 @@ class AttemptsBoard(Turtle):
 
 
 class EndGame(Turtle):
+    """
+    Actions after passing the level and exhausting all attempts
+    """
 
     def __init__(self):
         super().__init__()
